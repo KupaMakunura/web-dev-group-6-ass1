@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+nav {
+  justify-content: space-between;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.home {
+  background-image: url("./public/assets/bg.jpeg"); /* Replace with your coffee image */
+  background-size: cover;
+  height: 100vh;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.home-content {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.home h2 {
+  font-size: 3rem;
+}
+
+.home p {
+  font-size: 1.2rem;
+  margin: 15px 0;
+}
+
+.btn {
+  background-color: #e67e22;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #d35400;
+}
+
+.about,
+.menu {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: white;
+}
+
+.about h2,
+.menu h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.menu-items {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.menu-item {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.price {
+  font-size: 1.2rem;
+  color: #e67e22;
+  margin-top: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
