@@ -35,7 +35,7 @@ nav ul li a {
 }
 
 .home {
-  background-image: url("./public/assets/bg.jpeg"); /* Replace with your coffee image */
+  background-image: url('../public/assets/bg.jpeg'); /* Replace with your coffee image */
   background-size: cover;
   height: 100vh;
   color: #fff;
